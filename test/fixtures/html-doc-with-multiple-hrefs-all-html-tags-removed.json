@@ -1,0 +1,20 @@
+{
+    "content": "Example HTML Here is a list of links: https://example.com/first-link First Link https://example.com/second-link Second Link https://example.com/third-link Third Link",
+    "expectedResult": [
+        {
+            "url": "https://example.com/first-link",
+            "contextPre": "is a list of links: ",
+            "contextPost": " First Link https://"
+        },
+        {
+            "url": "https://example.com/second-link",
+            "contextPre": "rst-link First Link ",
+            "contextPost": " Second Link https:/"
+        },
+        {
+            "url": "https://example.com/third-link",
+            "contextPre": "nd-link Second Link ",
+            "contextPost": " Third Link"
+        }
+    ]
+}

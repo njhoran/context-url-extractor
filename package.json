@@ -1,0 +1,34 @@
+{
+  "name": "context-url-extractor",
+  "version": "1.0.0",
+  "description": "Methods for extracting URLs from HTML or text strings with surrounding context",
+  "main": "context-url-extractor.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive test/ --reporter list --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njhoran/context-url-extractor.git"
+  },
+  "keywords": [
+    "URL",
+    "extractor",
+    "surrounding",
+    "semantic",
+    "context"
+  ],
+  "author": "Nick Horan <nick.j.horan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njhoran/context-url-extractor/issues"
+  },
+  "homepage": "https://github.com/njhoran/context-url-extractor#readme",
+  "dependencies": {
+    "get-hrefs": "^4.0.0",
+    "regex-escape": "^3.4.9",
+    "url-regex": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}

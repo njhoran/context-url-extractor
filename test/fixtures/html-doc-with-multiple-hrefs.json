@@ -1,0 +1,20 @@
+{
+    "content": "<!DOCTYPE html><html><body><h1>Example HTML</h1><p>Here is a list of links:</p><ul><li><a href=\"https://example.com/first-link\">First Link</a></li><li><a href=\"https://example.com/second-link\">Second Link</a></li><li><a href=\"https://example.com/third-link\">Third Link</a></li></ul></body></html>",
+    "expectedResult": [
+        {
+            "url": "https://example.com/first-link",
+            "contextPre": "/p><ul><li><a href=\"",
+            "contextPost": "\">First Link</a></li"
+        },
+        {
+            "url": "https://example.com/second-link",
+            "contextPre": "a></li><li><a href=\"",
+            "contextPost": "\">Second Link</a></l"
+        },
+        {
+            "url": "https://example.com/third-link",
+            "contextPre": "a></li><li><a href=\"",
+            "contextPost": "\">Third Link</a></li"
+        }
+    ]
+}

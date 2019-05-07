@@ -1,0 +1,20 @@
+{
+    "content": "Example HTML Here is a list of links:<a href=\"https://example.com/first-link\">First Link</a><a href=\"https://example.com/second-link\">Second Link</a><a href=\"https://example.com/third-link\">Third Link</a>",
+    "expectedResult": [
+        {
+            "url": "https://example.com/first-link",
+            "contextPre": "t of links:<a href=\"",
+            "contextPost": "\">First Link</a><a h"
+        },
+        {
+            "url": "https://example.com/second-link",
+            "contextPre": "st Link</a><a href=\"",
+            "contextPost": "\">Second Link</a><a "
+        },
+        {
+            "url": "https://example.com/third-link",
+            "contextPre": "nd Link</a><a href=\"",
+            "contextPost": "\">Third Link</a>"
+        }
+    ]
+}
