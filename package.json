@@ -1,6 +1,6 @@
 {
   "name": "context-url-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Methods for extracting URLs from HTML or text strings with surrounding context",
   "main": "context-url-extractor.js",
   "scripts": {
